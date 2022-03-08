@@ -1,0 +1,73 @@
+*{
+    margin: 2px;
+    padding: 2px;
+}
+    
+header{
+    display: flex;
+    position: -webkit-sticky;
+    /* position: sticky; */
+    /* border: 2px solid rgb(202, 171, 171); */
+}
+
+header>.a>.logo{
+    width: 12vw;
+    height: 9vh;
+}
+header>.a>.dot{
+    width: 3vw;
+    height: 10vh;
+  }
+header>.b>.search,.mike{
+    width: 2vw;
+    height: 6vh;
+  }
+
+  header>.b>input{
+    height: 6vh;
+    width: 20vw;
+  }
+header>.b{
+    margin-left: 18rem;
+}
+.b:hover{
+    cursor: pointer;
+}
+
+header>.c{
+    margin-left: 17rem;
+}
+header>.c>.user{
+    width: 4vw;
+    height: 11vh;
+
+}
+.sidelist img{
+     width: 4vw;
+     height: 7vh;
+}
+.sidelist:hover{
+    cursor: pointer;
+}
+.sidelist {
+    width: 13vw;
+    height: 68vh;
+    /* border: 2px solid rgb(51, 31, 31); */
+}
+.middlecontainer{
+    /* border: 1px solid rgba(rgb(17, 2, 2), green, blue, alpha); */
+    width: 80vw;
+    height: 90vh;
+    display: flex;
+    margin-left: 13rem;
+    margin-right: 6rem;
+    position: relative;
+    margin-top: -26.5rem;
+    margin-bottom: 0rem;
+
+}
+
+.middlecontainer>ul>img{
+    width: 25vw;
+height: 51vh;
+}
