@@ -24,8 +24,8 @@ fs.writeFileSync(filePath,"Hello I am a text file ");
 
 //Create a directory
 
-if(!fs.existsSync("hamariDirectory"))
-    fs.mkdirSync("hamariDirectory");
+// if(!fs.existsSync("hamariDirectory"))
+//     fs.mkdirSync("hamariDirectory");
 
 // //Read a directory
 
