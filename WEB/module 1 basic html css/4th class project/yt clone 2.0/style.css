@@ -1,0 +1,105 @@
+header{
+    display: flex;
+    border-bottom: 2px solid rgb(44, 38, 38);
+    justify-content: space-evenly;
+    width: 90vw;
+height: 16vh;
+     
+}
+#dot{
+    position: relative;
+    position: absolute;
+    top: 23px;
+    cursor: pointer;
+    position: fixed;
+    /* border: 2px solid blue; */
+  }
+header nav{
+    display: flex;
+}
+header nav .search{ 
+    display: flex;
+    margin-left: 15rem;
+    margin-right: 21rem;
+    width: 13vw;
+    height: 6vh;
+    margin-top: 17px;
+    cursor: pointer;
+    /* border: 2px solid blue; */
+}
+header nav .search .text{
+   /* border: 2px solid black; */
+}
+header .logo{
+    height: 10vh;
+    width: 14vw;
+    margin-left: 10rem;
+    cursor: pointer;
+    /* border: 2px solid blue; */
+}
+header nav .user{
+    display: flex;
+    width: 13vw;
+    height: 10vh;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+header nav .user .ulogo{
+    width: 39px;
+height: 38px;
+margin-top: 1rem;
+}
+header nav .user h2{
+    color: blue;
+}
+
+/* sidelist */
+.sidelist{
+    width: 7.2vw;
+    height: 101vh;
+    /* border: 2px solid rebeccapurple; */
+    margin-top: 0rem;
+    position: fixed;
+    cursor: pointer;
+}
+
+.sidelist .sidebar .home{
+    margin: 10px;
+}
+
+.upperlist{
+    width: 89vw;
+height: 10vh;
+/* border: 2px solid yellowgreen; */
+margin-top: 0rem;
+margin-left: 7rem;
+}
+.upperlist .btn{
+    width: 6vw;
+    height: 7vh;
+    margin: 3px;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.upperlist .btn:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+/* content */
+.content{
+    /* border: 2px solid blueviolet; */
+    width: 87vw;
+    height: 102vh;
+    margin-left: 8rem;
+}
+.content img{
+    width: 28vw;
+    height: 52vh;
+}
+
+.content img:hover {
+    transform: scale(1.1); 
+  }
+
+
