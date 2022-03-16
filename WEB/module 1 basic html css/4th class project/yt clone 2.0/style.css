@@ -1,105 +1,143 @@
+*{
+    margin: 3px;
+    padding: 0px;
+}
+/* header   */
 header{
+    /* border: 2px solid blue; */
     display: flex;
-    border-bottom: 2px solid rgb(44, 38, 38);
     justify-content: space-evenly;
-    width: 90vw;
-height: 16vh;
-     
+    flex-wrap: wrap;
 }
-#dot{
+header>.logo{
+    width: 8rem;
+height: 2.5rem;
+margin-right: 10rem;
+cursor: pointer;
+}
+header>.search{
+  position: relative;
+  right: 9em;
+  cursor: pointer;
+}
+header>.search>input{
+    width: 29rem;
+    height: 2rem;
+}
+header>.search>.mike{
     position: relative;
-    position: absolute;
-    top: 23px;
-    cursor: pointer;
-    position: fixed;
-    /* border: 2px solid blue; */
-  }
-header nav{
-    display: flex;
+    width: 35px;
+    height: 30px;
+     top: 10px;
+     cursor: pointer;
 }
-header nav .search{ 
-    display: flex;
-    margin-left: 15rem;
-    margin-right: 21rem;
-    width: 13vw;
-    height: 6vh;
-    margin-top: 17px;
-    cursor: pointer;
-    /* border: 2px solid blue; */
-}
-header nav .search .text{
-   /* border: 2px solid black; */
-}
-header .logo{
-    height: 10vh;
-    width: 14vw;
-    margin-left: 10rem;
-    cursor: pointer;
-    /* border: 2px solid blue; */
-}
-header nav .user{
-    display: flex;
-    width: 13vw;
-    height: 10vh;
+header>.search>.searchpic{
+    position: relative;
+    width: 35px;
+    height: 30px;
+     top: 10px;
+     cursor: pointer;
+ }
+ header>.penr{
+    position: relative;
+    width: 35px;
+    height: 30px;
+     top: 10px;
+     cursor: pointer;
+ }
+ header>.user{
+     display: flex;
     border: 2px solid blue;
+    position: relative;
+    width: 9em;
+    height: 3em;
+    top: -5px;
     cursor: pointer;
-}
-header nav .user .ulogo{
-    width: 39px;
-height: 38px;
-margin-top: 1rem;
-}
-header nav .user h2{
-    color: blue;
-}
+ }
+ header>.user>.userimg{
+    /* border: 2px solid red; */
+    position: relative;
+    width: 3em;
+height: 3em;
+top: 2px;
+cursor: pointer;
+ }
+ header>.user>h3{
+     color: blue;
+     position: relative;
+     bottom: -7px;
+     font-size: 1.5rem;
+ }
+
+
+
+
 
 /* sidelist */
 .sidelist{
-    width: 7.2vw;
-    height: 101vh;
-    /* border: 2px solid rebeccapurple; */
-    margin-top: 0rem;
-    position: fixed;
+    /* border: 2px solid red; */
+    width: 6em;
+    height: 41em;
+    position: relative;
+    bottom: 3.5rem;
     cursor: pointer;
+    
 }
 
-.sidelist .sidebar .home{
-    margin: 10px;
+.sidelist>div>img{
+    position: relative;
+    width: 2em;
+    height: 2em;
+    margin-left: 26px;
 }
 
+#para{
+    margin-left: 21px;
+}
+#subs{
+    margin-left: 7px;   
+}
+
+/* upperlist */
 .upperlist{
-    width: 89vw;
-height: 10vh;
-/* border: 2px solid yellowgreen; */
-margin-top: 0rem;
-margin-left: 7rem;
+    display: flex;
+    /* border: 2px solid chartreuse; */
+    width: 89em;
+    height: 3em;
+    margin-left: 6.5rem;
+    position: relative;
+    bottom:41rem;
 }
-.upperlist .btn{
-    width: 6vw;
-    height: 7vh;
-    margin: 3px;
-    border-radius: 1rem;
+.upperlist>button{
+    width: 6rem;
+    height: 2.5rem;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 5px;
+}
+.upperlist>button:hover{
     cursor: pointer;
-}
-.upperlist .btn:hover{
+    color: white;
     background-color: black;
-    color: aliceblue;
 }
 
-/* content */
-.content{
-    /* border: 2px solid blueviolet; */
-    width: 87vw;
-    height: 102vh;
-    margin-left: 8rem;
-}
-.content img{
-    width: 28vw;
-    height: 52vh;
-}
 
-.content img:hover {
-    transform: scale(1.1); 
-  }
+/* ::content */
+ .content{
+     display: flex;
+     flex-wrap: wrap;
+     /* border: 2px solid cyan; */
+     width: 84rem;
+     height: 14rem;
+     position: relative;
+     bottom: 40em;
+     right: -8.5rem;
+ }
+ .content>img{
+    width: 27em;
+    height: 20em;
+ }
 
-
+ .content>img:hover{
+     transform: scale(1.1);
+ }
