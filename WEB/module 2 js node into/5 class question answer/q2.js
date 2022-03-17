@@ -5,7 +5,7 @@ let fs = require("fs");
 let path = require("path");
 
 let arr = ['Audio','Video','Software','Documents','Applications','Others'];
-let nameArr = ['abc','efg','xyz','def'];
+let nameArr = ['abc','efg','xyz','def','ghi','jkl','mno','pqr','stu','vwx','yz','alpha','beta','hamma'];
 let extArr = ['.mp3','.mp4','.exe','.pdf','.apk','.rar'];
 
 let organisePath = path.join(__dirname,"Organise");
