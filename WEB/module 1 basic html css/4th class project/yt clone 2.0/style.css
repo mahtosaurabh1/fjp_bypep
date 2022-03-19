@@ -9,6 +9,14 @@ header{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+#line{
+    height: 0.09px;
+    width: 86em;
+    border: 2px solid whitesmoke;
+    position: relative;
+    top: 3.9em;
+    left: 2.1rem;
+}
 header>.logo{
     width: 8rem;
 height: 2.5rem;
@@ -111,9 +119,10 @@ cursor: pointer;
 .upperlist>button{
     width: 6rem;
     height: 2.5rem;
-    background-color: aliceblue;
+    background-color:whitesmoke;
     color: black;
     border-radius: 5px;
+    border: 2px solid rgb(223, 210, 210);
 }
 .upperlist>button:hover{
     cursor: pointer;
